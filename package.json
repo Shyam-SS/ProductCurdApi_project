@@ -1,0 +1,20 @@
+{
+  "name": "productcrudapi",
+  "version": "1.0.0",
+  "description": "Product Crud Api using Express.js  and Mongodb - 1st assignment webskitters",
+  "license": "ISC",
+  "author": "Ankit Shaw",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
